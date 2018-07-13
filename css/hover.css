@@ -3,9 +3,13 @@ body {
 }
 
 .contenedor {
-  height: 100vh;
-  width: 100vw;
-  background-image: url('../images/wall.jpg');
-  background-position: center;
+	display: flex;
+	justify-content: center;
+	margin: 25px;
 }
 
+.logo {
+	margin-top: 450px;
+	margin-left: 275px;
+	position: absolute;
+}
