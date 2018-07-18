@@ -12,4 +12,46 @@ body {
 	margin-top: 450px;
 	margin-left: 275px;
 	position: absolute;
+	overflow: hidden;
+}
+
+.logo img {
+	transform: translateX(-1000px);
+	transition: 1s;
+}
+
+.logo:hover img {
+	transform: translateX(0) rotate(360deg);
+}
+
+.DT {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 260px;
+	overflow: hidden;
+}
+
+.DT img {
+	transform: translateX(-1040px);
+	transition: 1s;
+}
+
+.DT:hover img {
+	transform: translateX(0) rotate(360deg);
+}
+
+.art {
+	position: absolute;
+	margin-top: 320px;
+	margin-left: -370px;
+	overflow: hidden;
+}
+
+.art img {
+	transform: translateX(1090px);
+	transition: 1s;
+}
+
+.art:hover img {
+	transform: translateX(0); 
 }
