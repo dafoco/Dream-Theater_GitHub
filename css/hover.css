@@ -27,7 +27,6 @@ body {
 	transition: 1s;
 }
 
-
 .DT {
 	position: absolute;
 	margin-top: 20px;
@@ -39,7 +38,6 @@ body {
 	transform: translateX(-1040px);
 	transition: 1s;
 }
-
 
 .art {
 	position: absolute;
