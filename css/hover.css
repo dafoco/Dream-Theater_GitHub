@@ -27,8 +27,6 @@ body {
 	transition: 1s;
 }
 
-
-
 .DT {
 	position: absolute;
 	margin-top: 20px;
@@ -41,8 +39,6 @@ body {
 	transition: 1s;
 }
 
-
-
 .art {
 	position: absolute;
 	margin-top: 320px;
@@ -54,7 +50,6 @@ body {
 	transform: translateX(1090px);
 	transition: 1s;
 }
-
 
 .images:hover img {
 	transform: translateX(0); 
