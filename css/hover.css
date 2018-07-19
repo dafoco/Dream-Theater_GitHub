@@ -8,6 +8,13 @@ body {
 	margin: 25px;
 }
 
+.wall:hover {
+	border: 8px solid transparent;
+	border-image: linear-gradient(to right, #0066ff 0%, #cccc00 100%);
+	border-image-slice: 1;
+	transition-duration: 0.8s;
+}
+
 .logo {
 	margin-top: 450px;
 	margin-left: 275px;
@@ -20,9 +27,6 @@ body {
 	transition: 1s;
 }
 
-.logo:hover img {
-	transform: translateX(0) rotate(360deg);
-}
 
 .DT {
 	position: absolute;
@@ -36,9 +40,6 @@ body {
 	transition: 1s;
 }
 
-.DT:hover img {
-	transform: translateX(0) rotate(360deg);
-}
 
 .art {
 	position: absolute;
@@ -52,6 +53,6 @@ body {
 	transition: 1s;
 }
 
-.art:hover img {
+.images:hover img {
 	transform: translateX(0); 
 }
